@@ -166,5 +166,51 @@
       "thd_i_c":
       "ns=2;s=EnergyMonMB.SDP_Compressor.THD.I_C"
     }
+  },
+  
+  "COS": {
+    "name": "COS-Panel",
+
+    "tags": {
+      "voltage_ab":
+      "ns=2;s=EnergyMonMB1.COS Panel.Voltage.A-B",
+
+      "voltage_bc":
+      "ns=2;s=EnergyMonMB1.COS Panel.Voltage.B-C",
+
+      "voltage_ca":
+      "ns=2;s=EnergyMonMB1.COS Panel.Voltage.C-A",
+
+      "current_a":
+      "ns=2;s=EnergyMonMB1.COS Panel.Current.A",
+
+      "current_b":
+      "ns=2;s=EnergyMonMB1.COS Panel.Current.B",
+
+      "current_c":
+      "ns=2;s=EnergyMonMB1.COS Panel.Current.C",
+
+
+
+      "pf_a":
+      "ns=2;s=EnergyMonMB1.COS Panel.PF.A",
+
+      "pf_b":
+      "ns=2;s=EnergyMonMB1.COS Panel.PF.B",
+
+      "pf_c":
+      "ns=2;s=EnergyMonMB1.COS Panel.PF.C",
+
+
+
+      "thd_i_a":
+      "ns=2;s=EnergyMonMB1.COS Panel.THD.I_A",
+
+      "thd_i_b":
+      "ns=2;s=EnergyMonMB1.COS Panel.THD.I_B",
+
+      "thd_i_c":
+      "ns=2;s=EnergyMonMB1.COS Panel.THD.I_C"
+    }
   }
 }

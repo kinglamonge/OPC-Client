@@ -10,9 +10,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chart.js": "^4.5.1",
     "cors": "^2.8.6",
     "express": "^5.2.1",
+    "lucide-react": "^1.16.0",
     "node-opcua": "^2.92.0",
-    "socket.io": "^4.8.3"
+    "pg": "^8.21.0",
+    "react-chartjs-2": "^5.3.1",
+    "react-router-dom": "^7.15.1",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.0"
   }
 }
