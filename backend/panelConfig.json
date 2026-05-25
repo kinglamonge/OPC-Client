@@ -1,0 +1,170 @@
+{
+   "LVMDP1": {
+
+    "name": "LVMDP-1",
+
+    "tags": {
+
+      "voltage_ab":
+      "ns=2;s=EnergyMonMB2.LVMDP1.Voltage.A-B",
+
+      "voltage_bc":
+      "ns=2;s=EnergyMonMB2.LVMDP1.Voltage.B-C",
+
+      "voltage_ca":
+      "ns=2;s=EnergyMonMB2.LVMDP1.Voltage.C-A",
+
+
+
+      "current_a":
+      "ns=2;s=EnergyMonMB2.LVMDP1.Current.A",
+
+      "current_b":
+      "ns=2;s=EnergyMonMB2.LVMDP1.Current.B",
+
+      "current_c":
+      "ns=2;s=EnergyMonMB2.LVMDP1.Current.C",
+
+
+
+      "pf_a":
+      "ns=2;s=EnergyMonMB2.LVMDP1.PF.A",
+
+      "pf_b":
+      "ns=2;s=EnergyMonMB2.LVMDP1.PF.B",
+
+      "pf_c":
+      "ns=2;s=EnergyMonMB2.LVMDP1.PF.C",
+
+
+
+      "thd_i_a":
+      "ns=2;s=EnergyMonMB2.LVMDP1.THD.I_A",
+
+      "thd_i_b":
+      "ns=2;s=EnergyMonMB2.LVMDP1.THD.I_B",
+
+      "thd_i_c":
+      "ns=2;s=EnergyMonMB2.LVMDP1.THD.I_C"
+    }
+  },
+
+  "LVMDP2": {
+    "name": "LVMDP-2",
+
+    "tags": {
+      "voltage_ab":
+      "ns=2;s=EnergyMon.PLCGenset.LVMDP2.Voltage A-B",
+
+      "voltage_bc":
+      "ns=2;s=EnergyMon.PLCGenset.LVMDP2.Voltage B-C",
+
+      "voltage_ca":
+      "ns=2;s=EnergyMon.PLCGenset.LVMDP2.Voltage C-A",
+
+
+
+      "current_a":
+      "ns=2;s=EnergyMon.PLCGenset.LVMDP2.Current A",
+
+      "current_b":
+      "ns=2;s=EnergyMon.PLCGenset.LVMDP2.Current B",
+
+      "current_c":
+      "ns=2;s=EnergyMon.PLCGenset.LVMDP2.Current C"
+
+    }
+  },
+
+  "SDP5": {
+    "name": "SDP-5",
+
+    "tags": {
+      "voltage_ab":
+      "ns=2;s=EnergyMon.PLCGenset.SDP 5.Voltage A-B",
+
+      "voltage_bc":
+      "ns=2;s=EnergyMon.PLCGenset.SDP 5.Voltage B-C",
+
+      "voltage_ca":
+      "ns=2;s=EnergyMon.PLCGenset.SDP 5.Voltage C-A",
+
+      "current_a":
+      "ns=2;s=EnergyMon.PLCGenset.SDP 5.Current A",
+
+      "current_b":
+      "ns=2;s=EnergyMon.PLCGenset.SDP 5.Current B",
+
+      "current_c":
+      "ns=2;s=EnergyMon.PLCGenset.SDP 5.Current C",
+
+
+
+      "pf_a":
+      "ns=2;s=EnergyMon.PLCGenset.SDP 5.Power Factor A",
+
+      "pf_b":
+      "ns=2;s=EnergyMon.PLCGenset.SDP 5.Power Factor B",
+
+      "pf_c":
+      "ns=2;s=EnergyMon.PLCGenset.SDP 5.Power Factor C",
+
+
+
+      "thd_i_a":
+      "ns=2;s=EnergyMon.PLCGenset.SDP 5.THD I A",
+
+      "thd_i_b":
+      "ns=2;s=EnergyMon.PLCGenset.SDP 5.THD I B",
+
+      "thd_i_c":
+      "ns=2;s=EnergyMon.PLCGenset.SDP 5.THD I C"
+    }
+  },
+
+  "SDPCompressor": {
+    "name": "SDP-Compressor",
+
+    "tags": {
+      "voltage_ab":
+      "ns=2;s=EnergyMonMB.SDP_Compressor.Voltage.A-B",
+
+      "voltage_bc":
+      "ns=2;s=EnergyMonMB.SDP_Compressor.Voltage.B-C",
+
+      "voltage_ca":
+      "ns=2;s=EnergyMonMB.SDP_Compressor.Voltage.C-A",
+
+      "current_a":
+      "ns=2;s=EnergyMonMB.SDP_Compressor.Current.A",
+
+      "current_b":
+      "ns=2;s=EnergyMonMB.SDP_Compressor.Current.B",
+
+      "current_c":
+      "ns=2;s=EnergyMonMB.SDP_Compressor.Current.C",
+
+
+
+      "pf_a":
+      "ns=2;s=EnergyMonMB.SDP_Compressor.PF.A",
+
+      "pf_b":
+      "ns=2;s=EnergyMonMB.SDP_Compressor.PF.B",
+
+      "pf_c":
+      "ns=2;s=EnergyMonMB.SDP_Compressor.PF.C",
+
+
+
+      "thd_i_a":
+      "ns=2;s=EnergyMonMB.SDP_Compressor.THD.I_A",
+
+      "thd_i_b":
+      "ns=2;s=EnergyMonMB.SDP_Compressor.THD.I_B",
+
+      "thd_i_c":
+      "ns=2;s=EnergyMonMB.SDP_Compressor.THD.I_C"
+    }
+  }
+}
