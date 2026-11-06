@@ -5,47 +5,70 @@
 
     "tags": {
 
+      "freq":
+      "ns=2;s=PM5300.LVMDP1.Frequency",
+
       "voltage_ab":
-      "ns=2;s=EnergyMonMB2.LVMDP1.Voltage.A-B",
+      "ns=2;s=PM5300.LVMDP1.Voltage.A-B",
 
       "voltage_bc":
-      "ns=2;s=EnergyMonMB2.LVMDP1.Voltage.B-C",
+      "ns=2;s=PM5300.LVMDP1.Voltage.B-C",
 
       "voltage_ca":
-      "ns=2;s=EnergyMonMB2.LVMDP1.Voltage.C-A",
+      "ns=2;s=PM5300.LVMDP1.Voltage.C-A",
 
 
 
       "current_a":
-      "ns=2;s=EnergyMonMB2.LVMDP1.Current.A",
+      "ns=2;s=PM5300.LVMDP1.Current.A",
 
       "current_b":
-      "ns=2;s=EnergyMonMB2.LVMDP1.Current.B",
+      "ns=2;s=PM5300.LVMDP1.Current.B",
 
       "current_c":
-      "ns=2;s=EnergyMonMB2.LVMDP1.Current.C",
+      "ns=2;s=PM5300.LVMDP1.Current.C",
 
 
 
       "pf_a":
-      "ns=2;s=EnergyMonMB2.LVMDP1.PF.A",
+      "ns=2;s=PM5300.LVMDP1.PF.A",
 
       "pf_b":
-      "ns=2;s=EnergyMonMB2.LVMDP1.PF.B",
+      "ns=2;s=PM5300.LVMDP1.PF.B",
 
       "pf_c":
-      "ns=2;s=EnergyMonMB2.LVMDP1.PF.C",
+      "ns=2;s=PM5300.LVMDP1.PF.C",
 
 
 
       "thd_i_a":
-      "ns=2;s=EnergyMonMB2.LVMDP1.THD.I_A",
+      "ns=2;s=PM5300.LVMDP1.THD.I_A",
 
       "thd_i_b":
-      "ns=2;s=EnergyMonMB2.LVMDP1.THD.I_B",
+      "ns=2;s=PM5300.LVMDP1.THD.I_B",
 
       "thd_i_c":
-      "ns=2;s=EnergyMonMB2.LVMDP1.THD.I_C"
+      "ns=2;s=PM5300.LVMDP1.THD.I_C",
+
+
+      "thd_v_a":
+      "ns=2;s=PM5300.LVMDP1.THD.V_AB",
+
+      "thd_v_b":
+      "ns=2;s=PM5300.LVMDP1.THD.V_BC",
+
+      "thd_v_c":
+      "ns=2;s=PM5300.LVMDP1.THD.V_CA",
+
+
+      "kwh_delivered":
+      "ns=2;s=Power Totalizer.LVMDP1_kWh_Total.kWh LVMDP1",
+
+      "kvarh_delivered":
+      "ns=2;s=Power Totalizer.LVMDP1_kWh_Total.kVarh LVMDP1",
+
+      "kvah_delivered":
+      "ns=2;s=Power Totalizer.LVMDP1_kWh_Total.kVah LVMDP1"
     }
   },
 
@@ -54,24 +77,24 @@
 
     "tags": {
       "voltage_ab":
-      "ns=2;s=EnergyMon.PLCGenset.LVMDP2.Voltage A-B",
+      "ns=2;s=PM800.LVMDP2.Voltage.A-B",
 
       "voltage_bc":
-      "ns=2;s=EnergyMon.PLCGenset.LVMDP2.Voltage B-C",
+      "ns=2;s=PM800.LVMDP2.Voltage.B-C",
 
       "voltage_ca":
-      "ns=2;s=EnergyMon.PLCGenset.LVMDP2.Voltage C-A",
+      "ns=2;s=PM800.LVMDP2.Voltage.C-A",
 
 
 
       "current_a":
-      "ns=2;s=EnergyMon.PLCGenset.LVMDP2.Current A",
+      "ns=2;s=PM800.LVMDP2.Current.A",
 
       "current_b":
-      "ns=2;s=EnergyMon.PLCGenset.LVMDP2.Current B",
+      "ns=2;s=PM800.LVMDP2.Current.B",
 
       "current_c":
-      "ns=2;s=EnergyMon.PLCGenset.LVMDP2.Current C"
+      "ns=2;s=PM800.LVMDP2.Current.C"
 
     }
   },
@@ -81,44 +104,44 @@
 
     "tags": {
       "voltage_ab":
-      "ns=2;s=EnergyMon.PLCGenset.SDP 5.Voltage A-B",
+      "ns=2;s=PM5350.SDP5.Voltage.A-B",
 
       "voltage_bc":
-      "ns=2;s=EnergyMon.PLCGenset.SDP 5.Voltage B-C",
+      "ns=2;s=PM5350.SDPP5.Voltage.B-C",
 
       "voltage_ca":
-      "ns=2;s=EnergyMon.PLCGenset.SDP 5.Voltage C-A",
+      "ns=2;s=PM5350.SDPP5.Voltage.C-A",
 
       "current_a":
-      "ns=2;s=EnergyMon.PLCGenset.SDP 5.Current A",
+      "ns=2;s=PM5350.SDPP5.Current.A",
 
       "current_b":
-      "ns=2;s=EnergyMon.PLCGenset.SDP 5.Current B",
+      "ns=2;s=PM5350.SDPP5.Current.B",
 
       "current_c":
-      "ns=2;s=EnergyMon.PLCGenset.SDP 5.Current C",
+      "ns=2;s=PM5350.SDPP5.Current.C",
 
 
 
       "pf_a":
-      "ns=2;s=EnergyMon.PLCGenset.SDP 5.Power Factor A",
+      "ns=2;s=PM5350.SDP5.PF.A",
 
       "pf_b":
-      "ns=2;s=EnergyMon.PLCGenset.SDP 5.Power Factor B",
+      "ns=2;s=PM5350.SDP5.PF.B",
 
       "pf_c":
-      "ns=2;s=EnergyMon.PLCGenset.SDP 5.Power Factor C",
+      "ns=2;s=PM5350.SDP5.PF.C",
 
 
 
       "thd_i_a":
-      "ns=2;s=EnergyMon.PLCGenset.SDP 5.THD I A",
+      "ns=2;s=PM5350.SDP5.THD.I_A",
 
       "thd_i_b":
-      "ns=2;s=EnergyMon.PLCGenset.SDP 5.THD I B",
+      "ns=2;s=PM5350.SDP5.THD.I_B",
 
       "thd_i_c":
-      "ns=2;s=EnergyMon.PLCGenset.SDP 5.THD I C"
+      "ns=2;s=PM5350.SDP5.THD.I_C"
     }
   },
 
@@ -126,45 +149,141 @@
     "name": "SDP-Compressor",
 
     "tags": {
+      "freq":
+      "ns=2;s=PM53502.SDP_Compressor.Frequency",
+
       "voltage_ab":
-      "ns=2;s=EnergyMonMB.SDP_Compressor.Voltage.A-B",
+      "ns=2;s=PM53502.SDP_Compressor.Voltage.A-B",
 
       "voltage_bc":
-      "ns=2;s=EnergyMonMB.SDP_Compressor.Voltage.B-C",
+      "ns=2;s=PM53502.SDP_Compressor.Voltage.B-C",
 
       "voltage_ca":
-      "ns=2;s=EnergyMonMB.SDP_Compressor.Voltage.C-A",
+      "ns=2;s=PM53502.SDP_Compressor.Voltage.C-A",
 
       "current_a":
-      "ns=2;s=EnergyMonMB.SDP_Compressor.Current.A",
+      "ns=2;s=PM53502.SDP_Compressor.Current.A",
 
       "current_b":
-      "ns=2;s=EnergyMonMB.SDP_Compressor.Current.B",
+      "ns=2;s=PM53502.SDP_Compressor.Current.B",
 
       "current_c":
-      "ns=2;s=EnergyMonMB.SDP_Compressor.Current.C",
+      "ns=2;s=PM53502.SDP_Compressor.Current.C",
+
+      "current_n":
+      "ns=2;s=PM53502.SDP_Compressor.Current.N",
 
 
 
       "pf_a":
-      "ns=2;s=EnergyMonMB.SDP_Compressor.PF.A",
+      "ns=2;s=PM53502.SDP_Compressor.PF.A",
 
       "pf_b":
-      "ns=2;s=EnergyMonMB.SDP_Compressor.PF.B",
+      "ns=2;s=PM53502.SDP_Compressor.PF.B",
 
       "pf_c":
-      "ns=2;s=EnergyMonMB.SDP_Compressor.PF.C",
+      "ns=2;s=PM53502.SDP_Compressor.PF.C",
 
 
 
       "thd_i_a":
-      "ns=2;s=EnergyMonMB.SDP_Compressor.THD.I_A",
+      "ns=2;s=PM53502.SDP_Compressor.THD.I_A",
 
       "thd_i_b":
-      "ns=2;s=EnergyMonMB.SDP_Compressor.THD.I_B",
+      "ns=2;s=PM53502.SDP_Compressor.THD.I_B",
 
       "thd_i_c":
-      "ns=2;s=EnergyMonMB.SDP_Compressor.THD.I_C"
+      "ns=2;s=PM53502.SDP_Compressor.THD.I_C",
+
+
+      "thd_v_a":
+      "ns=2;s=PM53502.SDP_Compressor.THD.V_AB",
+
+      "thd_v_b":
+      "ns=2;s=PM53502.SDP_Compressor.THD.V_BC",
+
+      "thd_v_c":
+      "ns=2;s=PM53502.SDP_Compressor.THD.V_CA",
+
+      
+      "kwh_delivered":
+      "ns=2;s=PM53502.SDP_Compressor.Active Energy.Delivered-Received",
+
+      "kvarh_delivered":
+      "ns=2;s=PM53502.SDP_Compressor.Reactive Energy.Delivered",
+
+      "kvah_delivered":
+      "ns=2;s=PM53502.SDP_Compressor.Apparent Energy.Delivered"
+    }
+  },
+
+   "SDPFilling": {
+    "name": "SDP-Filling",
+
+    "tags": {
+      "freq":
+      "ns=2;s=PM5650.SDP_Filling.Frequency",
+
+      "voltage_ab":
+      "ns=2;s=PM5650.SDP_Filling.Voltage.A-B",
+
+      "voltage_bc":
+      "ns=2;s=PM5650.SDP_Filling.Voltage.B-C",
+
+      "voltage_ca":
+      "ns=2;s=PM5650.SDP_Filling.Voltage.C-A",
+
+      "current_a":
+      "ns=2;s=PM5650.SDP_Filling.Current.A",
+
+      "current_b":
+      "ns=2;s=PM5650.SDP_Filling.Current.B",
+
+      "current_c":
+      "ns=2;s=PM5650.SDP_Filling.Current.C",
+
+      "current_n":
+      "ns=2;s=PM5650.SDP_Filling.Current.N",
+
+
+
+      "pf_a":
+      "ns=2;s=PM5650.SDP_Filling.PF.A",
+
+      "pf_b":
+      "ns=2;s=PM5650.SDP_Filling.PF.B",
+
+      "pf_c":
+      "ns=2;s=PM5650.SDP_Filling.PF.C",
+
+
+      "thd_i_a":
+      "ns=2;s=PM5650.SDP_Filling.THD.I_A",
+
+      "thd_i_b":
+      "ns=2;s=PM5650.SDP_Filling.THD.I_B",
+
+      "thd_i_c":
+      "ns=2;s=PM5650.SDP_Filling.THD.I_C",
+
+      "thd_v_a":
+      "ns=2;s=PM5650.SDP_Filling.THD.V_AB",
+
+      "thd_v_b":
+      "ns=2;s=PM5650.SDP_Filling.THD.V_BC",
+
+      "thd_v_c":
+      "ns=2;s=PM5650.SDP_Filling.THD.V_CA",
+
+
+      "kwh_delivered":
+      "ns=2;s=PM5650.SDP_Filling.Active Energy.Delivered-Received",
+
+      "kvarh_delivered":
+      "ns=2;s=PM5650.SDP_Filling.Reactive Energy.Delivered",
+
+      "kvah_delivered":
+      "ns=2;s=PM5650.SDP_Filling.Apparent Energy.Delivered"
     }
   },
   
@@ -172,45 +291,324 @@
     "name": "COS-Panel",
 
     "tags": {
+      "freq":
+      "ns=2;s=PM53501.COS Panel.Frequency",
+
       "voltage_ab":
-      "ns=2;s=EnergyMonMB1.COS Panel.Voltage.A-B",
+      "ns=2;s=PM53501.COS Panel.Voltage.A-B",
 
       "voltage_bc":
-      "ns=2;s=EnergyMonMB1.COS Panel.Voltage.B-C",
+      "ns=2;s=PM53501.COS Panel.Voltage.B-C",
 
       "voltage_ca":
-      "ns=2;s=EnergyMonMB1.COS Panel.Voltage.C-A",
+      "ns=2;s=PM53501.COS Panel.Voltage.C-A",
 
       "current_a":
-      "ns=2;s=EnergyMonMB1.COS Panel.Current.A",
+      "ns=2;s=PM53501.COS Panel.Current.A",
 
       "current_b":
-      "ns=2;s=EnergyMonMB1.COS Panel.Current.B",
+      "ns=2;s=PM53501.COS Panel.Current.B",
 
       "current_c":
-      "ns=2;s=EnergyMonMB1.COS Panel.Current.C",
+      "ns=2;s=PM53501.COS Panel.Current.C",
+
+      "current_n":
+      "ns=2;s=PM53501.COS Panel.Current.N",
 
 
 
       "pf_a":
-      "ns=2;s=EnergyMonMB1.COS Panel.PF.A",
+      "ns=2;s=PM53501.COS Panel.PF.A",
 
       "pf_b":
-      "ns=2;s=EnergyMonMB1.COS Panel.PF.B",
+      "ns=2;s=PM53501.COS Panel.PF.B",
 
       "pf_c":
-      "ns=2;s=EnergyMonMB1.COS Panel.PF.C",
+      "ns=2;s=PM53501.COS Panel.PF.C",
 
 
 
       "thd_i_a":
-      "ns=2;s=EnergyMonMB1.COS Panel.THD.I_A",
+      "ns=2;s=PM53501.COS Panel.THD.I_A",
 
       "thd_i_b":
-      "ns=2;s=EnergyMonMB1.COS Panel.THD.I_B",
+      "ns=2;s=PM53501.COS Panel.THD.I_B",
 
       "thd_i_c":
-      "ns=2;s=EnergyMonMB1.COS Panel.THD.I_C"
+      "ns=2;s=PM53501.COS Panel.THD.I_C",
+
+
+      "thd_v_a":
+      "ns=2;s=PM53501.COS Panel.THD.V_AB",
+
+      "thd_v_b":
+      "ns=2;s=PM53501.COS Panel.THD.V_BC",
+
+      "thd_v_c":
+      "ns=2;s=PM53501.COS Panel.THD.V_CA",
+
+
+      "kwh_delivered":
+      "ns=2;s=PM53501.COS Panel.Active Energy.Delivered",
+
+      "kvarh_delivered":
+      "ns=2;s=PM53501.COS Panel.Reactive Energy.Delivered",
+
+      "kvah_delivered":
+      "ns=2;s=PM53501.COS Panel.Apparent Energy.Delivered"
     }
+  },
+
+  "CWC": {
+    "name": "CWC-Panel",
+
+    "tags": {
+      "flowrate_input":
+      "ns=2;s=CWCGroup.Tank Water.Flowmeter.FT4000FR",
+
+      "input_totalizer":
+      "ns=2;s=CWCGroup.Tank Water.Flowmeter.FT4000Tot",
+
+      "lt4200":
+      "ns=2;s=CWCGroup.Tank Water1.Level.LT4200",
+
+      "lt4300":
+      "ns=2;s=CWCGroup.Tank Water1.Level.LT4300",
+
+      "lt4400":
+      "ns=2;s=CWCGroup.Tank Water1.Level.LT4400",
+
+      "tt4200":
+      "ns=2;s=CWCGroup.Tank Water1.Temperature.TT4200",
+
+      "tt4300":
+      "ns=2;s=CWCGroup.Tank Water1.Temperature.TT4300",
+
+      "tt4400":
+      "ns=2;s=CWCGroup.Tank Water1.Temperature.TT4400",
+
+      "lt4800":
+      "ns=2;s=CWCGroup.Tank Water1.Level.LT4800",
+
+      "lt4900":
+      "ns=2;s=CWCGroup.Tank Water1.Level.LT4900",
+
+      "lt5000":
+      "ns=2;s=CWCGroup.Tank Water1.Level.LT5000",
+
+      "tt4800":
+      "ns=2;s=CWCGroup.Tank Water1.Temperature.TT4800",
+
+      "tt4900":
+      "ns=2;s=CWCGroup.Tank Water1.Temperature.TT4900",
+
+      "tt5000":
+      "ns=2;s=CWCGroup.Tank Water1.Temperature.TT5000",
+
+      "evap_brix":
+      "ns=2;s=CWCGroup.Evaporator.Mass Flow.BRIX",
+
+      "dsi_cip":
+      "ns=2;s=CWCGroup.Sterilizer DSI.Step Status.CIP Mode",
+
+      "dsi_ster":
+      "ns=2;s=CWCGroup.Sterilizer DSI.Step Status.SIP Mode",
+
+      "dsi_prod":
+      "ns=2;s=CWCGroup.Sterilizer DSI.Step Status.Prod Mode",
+
+      "evap_cip_step":
+      "ns=2;s=CWCGroup.Evaporator.Step Status.CIP Step",
+
+      "evap_ster_step":
+      "ns=2;s=CWCGroup.Evaporator.Step Status.SIP Step",
+
+      "evap_prod_step":
+      "ns=2;s=CWCGroup.Evaporator.Step Status.Production Step",
+
+      "tt11":
+      "ns=2;s=CWCGroup.Evaporator.Temperature.TT11",
+
+      "tt21":
+      "ns=2;s=CWCGroup.Evaporator.Temperature.TT21",
+
+      "tt31":
+      "ns=2;s=CWCGroup.Evaporator.Temperature.TT31",
+
+      "pasteur_cip":
+      "ns=2;s=CWCGroup.Pasteuriser.Step Status.CIP Mode",
+
+      "pasteur_ster":
+      "ns=2;s=CWCGroup.Pasteuriser.Step Status.Ster Mode",
+
+      "pasteur_prod":
+      "ns=2;s=CWCGroup.Pasteuriser.Step Status.Prod Mode",
+
+      "tt3001":
+      "ns=2;s=CWCGroup.Pasteuriser.Temperature.TT3001",
+
+      "tt3002":
+      "ns=2;s=CWCGroup.Pasteuriser.Temperature.TT3002",
+
+      "tt3003":
+      "ns=2;s=CWCGroup.Pasteuriser.Temperature.TT3003",
+
+      "tt3004":
+      "ns=2;s=CWCGroup.Pasteuriser.Temperature.TT3004",
+
+      "tt3005":
+      "ns=2;s=CWCGroup.Pasteuriser.Temperature.TT3005",
+
+      "tt3006":
+      "ns=2;s=CWCGroup.Pasteuriser.Temperature.TT3006",
+
+      "tt3007":
+      "ns=2;s=CWCGroup.Pasteuriser.Temperature.TT3007",
+
+      "tt3010":
+      "ns=2;s=CWCGroup.Pasteuriser.Temperature.TT3010",
+
+      "ft3001":
+      "ns=2;s=CWCGroup.Pasteuriser.Flowmeter.FT3001"
+    }
+  },
+
+  "CCL": {
+    "name": "CCL-Panel",
+
+    "tags": {
+      "tt344":
+      "ns=2;s=ACCGroup.VTIS.Temperature.TT344",
+
+      "tt342":
+      "ns=2;s=ACCGroup.VTIS.Temperature.TT342",
+
+      "tt44":
+      "ns=2;s=ACCGroup.VTIS.Temperature.TT44",
+
+      "tt51":
+      "ns=2;s=ACCGroup.VTIS.Temperature.TT51",
+
+      "tt830":
+      "ns=2;s=ACCGroup.VTIS.Temperature.TT830",
+
+      "ft04":
+      "ns=2;s=ACCGroup.VTIS.Flowmeter.FT04"
+    }
+  },
+
+  "WWTP": {
+    "name": "WWTP-Panel",
+
+    "tags": {
+      "inlet_flow":
+      "ns=2;s=Biogas.Biogas.Flowmeter.FT-102",
+
+      "inlet_total":
+      "ns=2;s=Water Totalizer.Biogas.FT102",
+
+      "ft102":
+      "ns=2;s=Biogas.Biogas.Flowmeter.FT-102",
+
+      "ft201":
+      "ns=2;s=Biogas.Biogas.Flowmeter.FT-201",
+
+      "ft301":
+      "ns=2;s=Biogas.Biogas.Flowmeter.FT-301",
+
+      "ft401":
+      "ns=2;s=Biogas.Biogas.Flowmeter.FT-401",
+
+      "ft402":
+      "ns=2;s=Biogas.Biogas.Flowmeter.FT-402",
+
+      "gas_pressure":
+      "ns=2;s=Biogas.Biogas.Pressure.PT-201",
+
+      "tank_level":
+      "ns=2;s=Biogas.Biogas.Level.LE-201",
+
+      "ph_equalization":
+      "ns=2;s=Biogas.Biogas.pH Meter.AE-201",
+
+      "ph_reactor":
+      "ns=2;s=Biogas.Biogas.pH Meter.AE-202",
+
+      "ae301":
+      "ns=2;s=Biogas.Biogas.pH Meter.AE-301",
+
+      "ae401":
+      "ns=2;s=Biogas.Biogas.pH Meter.AE-401",
+
+      "ae402":
+      "ns=2;s=Biogas.Biogas.pH Meter.AE-402",
+
+      "ph_effluent":
+      "ns=2;s=Biogas.Biogas.pH Meter.AE-601",
+
+      "do_aeration":
+      "ns=2;s=Biogas.Biogas.pH Meter.AE-501",
+
+      "outlet_flow":
+      "ns=2;s=Biogas.Biogas.Flowmeter.FT-601",
+
+      "outlet_total":
+      "ns=2;s=Water Totalizer.Biogas.FT701"
+    }
+  },
+
+  "DOJO": {
+    "name": "DOJO-Panel",
+
+    "tags": {
+      "button1":
+      "ns=2;s=DOJO.S71217.Switch 1",
+      "analog1":
+      "ns=2;s=DOJO.S71217.Analog 1"
+    }
+  },
+
+  "Opening": {
+    "name": "Opening-Panel",
+
+    "tags": {
+      "camera_ok":
+      "ns=2;s=Kelapa.Counter.CameraOK",
+      "total_counter":
+      "ns=2;s=Kelapa.Counter.Total",
+      "reset_counter":
+      "ns=2;s=Kelapa.Counter.Reset",
+      "counter_rateper_minute":
+      "ns=2;s=Kelapa.Counter.RatePerMin"
+    }
+  },
+
+  "WaterFlow": {
+  "name": "WaterHeader-Panel",
+  "tags": {
+    "ft_opening_flow": "ns=2;s=420toMBConv.WaterHeader.PV.CH 1",
+    "ft_opening_total": "ns=2;s=Water Totalizer.420toMB1.CH 1",
+
+    "ft_dc_flow": "ns=2;s=420toMBConv.WaterHeader.PV.CH 2",
+    "ft_dc_total": "ns=2;s=Water Totalizer.420toMB1.CH 2",
+
+    "ft_cwc_flow": "ns=2;s=420toMBConv.WaterHeader.PV.CH 3",
+    "ft_cwc_total": "ns=2;s=Water Totalizer.420toMB1.CH 3",
+
+    "ft_aseptic_flow": "ns=2;s=420toMBConv.WaterHeader.PV.CH 4",
+    "ft_aseptic_total": "ns=2;s=Water Totalizer.420toMB1.CH 4",
+
+    "ft_afm_flow": "ns=2;s=420toMBConv.WaterHeader.PV.CH 5",
+    "ft_afm_total": "ns=2;s=Water Totalizer.420toMB1.CH 5",
+
+    "ft_biogas_flow": "ns=2;s=420toMBConv.WaterHeader.PV.CH 6",
+    "ft_biogas_total": "ns=2;s=Water Totalizer.420toMB1.CH 6",
+
+    "ft_spare1_flow": "ns=2;s=420toMBConv.WaterHeader.PV.CH 7",
+    "ft_spare1_total": "ns=2;s=Water Totalizer.420toMB1.CH 7",
+
+    "ft_spare2_flow": "ns=2;s=420toMBConv.WaterHeader.PV.CH 8",
+    "ft_spare2_total": "ns=2;s=Water Totalizer.420toMB1.CH 8"
   }
+}
 }
