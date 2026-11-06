@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #121212;
+  color: #E0E0E0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* ======================================================== */
+/* FITUR LIGHT MODE (PROJECTOR MODE)                        */
+/* ======================================================== */
+.projector-mode {
+  /* Hanya gunakan filter, HAPUS baris background-color */
+  filter: invert(1) hue-rotate(180deg);
+}
+
+/* Kembalikan warna asli untuk Gambar agar tidak seperti klise foto */
+.projector-mode img,
+.projector-mode video {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+/* Mempertebal font saat mode terang agar lebih terbaca di proyektor */
+.projector-mode * {
+  font-weight: 500 !important;
+}
