@@ -31,6 +31,7 @@ const Overview = ({ opcData }) => {
     { id: "Boiler", name: "Boiler-Panel", top: "42.49%", left: "77.56%", path: "/boiler", icon: Factory },
     { id: "CNO", name: "CNO-Panel", top: "30.49%", left: "82.56%", path: "/cno", icon: Factory },
     { id: "WaterFlow", name: "WaterHeader", top: "80.49%", left: "58.56%", path: "/waterflow", icon: Droplets },
+    { id: "Opening", name: "Opening-Panel", top: "50.49%", left: "65.56%", path: "/opening", icon: Factory },
   ]);
 
   const handleMapClick = (e) => {

@@ -156,7 +156,7 @@ const CNO = ({ opcData }) => {
           </div>
           <div>
             <h1 className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white to-amber-200 tracking-wide uppercase">
-              Crude Nut Oil (CNO) Plant
+              Crude Nut Oil (CNO) Plant (Belum Terhubung ke Panel CNO)
             </h1>
             <p className="text-xs text-gray-400 mt-1 font-mono tracking-widest uppercase">
               Mass Balance, Storage Tank & Truck Loading Telemetry

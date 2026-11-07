@@ -119,7 +119,7 @@ const Boiler = ({ opcData }) => {
           </div>
           <div>
             <h1 className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white to-orange-200 tracking-wide uppercase">
-              Boiler Utility System
+              Boiler Utility System (Belum Terhubung ke Panel Boiler)
             </h1>
             <p className="text-xs text-gray-400 mt-1 font-mono tracking-widest uppercase">
               Steam Generation & Thermal Feed Monitoring

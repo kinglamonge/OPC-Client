@@ -574,6 +574,8 @@
     "tags": {
       "camera_ok":
       "ns=2;s=Kelapa.Counter.CameraOK",
+      "camera_heartbeat":
+      "ns=2;s=Kelapa.Counter.Heartbeat",
       "total_counter":
       "ns=2;s=Kelapa.Counter.Total",
       "reset_counter":
